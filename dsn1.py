@@ -16,7 +16,7 @@ movies_df = pd.read_csv("tmdb_5000_movies.csv")
 
 movies_df.head()
 credits_df.head()
-
+#Choosing the column we need 
 credits_df.columns = ['id','tittle','cast','crew']
 movies_df = movies_df.merge(credits_df, on="id")
 
