@@ -11,7 +11,7 @@ from ast import literal_eval
 
    
 # path = "D:\college\project\metabase"
-credits_df = pd.read_csv("tmdb_5000_credits.csv")
+credits_df = pd.read_csv("tmdb_5000_credits.csv")  
 movies_df = pd.read_csv("tmdb_5000_movies.csv")
 
 movies_df.head()
