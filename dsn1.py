@@ -32,7 +32,7 @@ print("m: ", m)
 new_movies_df = movies_df.copy().loc[movies_df["vote_count"] >= m]
 print(new_movies_df.shape)
 
-def weighted_rating(x, C=C, m=m):
+def weighted_rating(x, C=C, m=m): 
     v = x["vote_count"]
     R = x["vote_average"]
 
