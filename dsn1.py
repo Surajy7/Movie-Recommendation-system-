@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.metrics.pairwise import cosine_similarity
 from ast import literal_eval 
-
+ 
    
 # path = "D:\college\project\metabase"
 credits_df = pd.read_csv("tmdb_5000_credits.csv")  
